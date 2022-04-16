@@ -1,0 +1,29 @@
+
+.page-main {
+display: grid;
+  grid-template-rows: max-content 1fr ;
+  @media (max-width: $max-asside-width) {
+    max-width: 768px;
+  }
+  // .page-main__breadcrumbs
+  &__breadcrumbs {
+  }
+
+  // .page-main__content
+  &__content {
+display: grid;
+    grid-template-columns: max-content 1fr;
+  }
+}
+
+.breadcrumbs {
+  background-color: $background-nav;
+  display: flex;
+  flex-wrap: wrap;
+  // .breadcrumbs__item
+  &__item {
+    // .breadcrumbs__item--current
+    &--current {
+    }
+  }
+}

@@ -1,0 +1,70 @@
+.employees {
+  @media (max-width: $max-asside-width) {
+    display: none;
+  }
+  flex: 0 0;
+  // .employees__search
+  &__search {
+    width: 100%;
+  }
+
+  // .employees__list
+  &__list {
+  }
+
+  // .employees__item
+  &__item {
+  }
+}
+
+.employee {
+  display: flex;
+  padding: 20px 29px;
+  // .employee__avatar
+  &__avatar {
+    width: 50px;
+    height: 50px;
+    // .employee__avatar--current
+    &--current {
+      width: 59px;
+      height: 57px;
+    }
+  }
+
+  // .employee__information
+  &__information {
+  }
+
+  // .employee__full-name
+  &__full-name {
+  }
+
+  // .employee__position
+  &__position {
+  }
+
+  // .employee__status
+  &__status {
+    // .employee__status--dismissal
+    &--dismissal {
+    }
+
+    // .employee__status--on-leave
+    &--on-leave {
+    }
+
+    // .employee__status--hidden
+    &--hidden {
+    }
+  }
+
+  // .employee__number
+  &__number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // .employee__number--current
+    &--current {
+    }
+  }
+}
